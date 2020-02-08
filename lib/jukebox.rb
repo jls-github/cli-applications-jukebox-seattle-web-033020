@@ -37,7 +37,7 @@ def play(songs)
     end
     i += 1
   end
-  output
+  puts "output"
 end
 
 def exit_jukebox
