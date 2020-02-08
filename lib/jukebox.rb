@@ -22,6 +22,7 @@ def list(songs)
   i = 0
   while i < songs.length do
     puts "#{i + 1}. #{songs[i]}"
+    i += 1
   end
 end
 
@@ -34,6 +35,7 @@ def play(songs)
     if input == i + 1 || input == songs[i]
       output = songs[i]
     end
+    i += 1
   end
   output
 end
