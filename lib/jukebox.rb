@@ -32,7 +32,7 @@ def play(songs)
   output = "Invalid input, please try again"
   i = 0
   while i < songs.length do
-    if input == i + 1 || input == songs[i]
+    if input == (i + 1).to_s || input == songs[i]
       output = songs[i]
     end
     i += 1
