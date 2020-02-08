@@ -33,7 +33,7 @@ def play(songs)
   i = 0
   while i < songs.length do
     if input == (i + 1).to_s || input == songs[i]
-      output = songs[i]
+      output = "Playing #{songs[i]}"
     end
     i += 1
   end
